@@ -12,6 +12,11 @@ from dpbotz.untils.add import set_commands
 from pyrogram import Client, __version__
 from dpbotz.web_support import web_server
 
+from pyrogram import utils as pyroutils
+
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
+
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)

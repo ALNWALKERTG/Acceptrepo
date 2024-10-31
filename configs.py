@@ -3,8 +3,8 @@ import os, time
 #from pyrogram.types import BotCommand
 
 class Config:
-    API_ID = int(getenv("API_ID", "7679954"))
-    API_HASH = getenv("API_HASH", "4af51af8f1a8b06ca2b076370ba93fba")
+    API_ID = int(getenv("API_ID", ""))
+    API_HASH = getenv("API_HASH", "")
     BOT_TOKEN = getenv("BOT_TOKEN", "7344396275:AAFuEDN3U1v_1pboSapZFWEgy_-cXJVCglM")
     UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "CinemaKalavaraTG")
     UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1001514228365"))

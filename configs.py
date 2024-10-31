@@ -3,13 +3,13 @@ import os, time
 #from pyrogram.types import BotCommand
 
 class Config:
-    API_ID = int(getenv("API_ID", "20239261"))
-    API_HASH = getenv("API_HASH", "af61dab399ed3220a3a81570b56bd29d")
-    BOT_TOKEN = getenv("BOT_TOKEN", "7004962339:AAFauWpInLvn1JUjEbTjSnacSQXlnCfRvd8")
-    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "XozMovies")
-    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-2139227512"))
-    ADMIN = list(map(int, getenv("ADMIN", "1058787811 1242556540").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://evamusicbot:mrwaris04@cluster0.5ad8zuj.mongodb.net/?retryWrites=true&w=majority")
+    API_ID = int(getenv("API_ID", "7679954"))
+    API_HASH = getenv("API_HASH", "4af51af8f1a8b06ca2b076370ba93fba")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7344396275:AAFuEDN3U1v_1pboSapZFWEgy_-cXJVCglM")
+    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "CinemaKalavaraTG")
+    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1001514228365"))
+    ADMIN = list(map(int, getenv("ADMIN", "7040444713 2144812475").split()))
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://hi:hi@auto.natzh.mongodb.net/?retryWrites=true&w=majority&appName=auto")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-2132087730"))
     
     #web response 

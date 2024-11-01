@@ -20,7 +20,7 @@ class Config:
     DP_PIC = os.environ.get("DP_PIC", "https://envs.sh/_qj.mp4")
     BOT_USERNAME = os.environ.get("BOT_USERNAME","TGRequestAcceptBot")
  # Subsprice Gif & Auto Request Accept
-    SURPRICE = os.environ.get("SURPRICE", "https://graph.org/file/67a5c787deb0d67fd3f69.jpg").split()
+    SURPRICE = os.environ.get("SURPRICE", "https://envs.sh/_qj.mp4").split()
 
     LOGO = """🇩 🇵_🇧 🇴 🇹 🇿"""
 

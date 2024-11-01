@@ -45,10 +45,6 @@ class Bot(Client):
         logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
         logging.info(dp1.LOGO)
         await set_commands(self)
-        for id in dp1.ADMIN:
-            try:
-                await self.send_message(id, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
-            except: pass
         if dp1.LOG_CHANNEL:
             try:
                 curr = datetime.now(timezone("Asia/Kolkata"))

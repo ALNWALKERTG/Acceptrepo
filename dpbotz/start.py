@@ -51,8 +51,8 @@ async def op(bot, m :Message):
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startchannel=Bots4Sale&admin=invite_users+manage_chat")],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startgroup=Bots4Sale&admin=invite_users+manage_chat")
                  ],[
-                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://github.com/ALNWALKERTG/Acceptrepo"),
-                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://github.com/ALNWALKERTG/Acceptrepo")
+                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://t.me/+sT56Fh1VXZ81ZWRl"),
+                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://t.me/+sT56Fh1VXZ81ZWRl")
                 
             ]])             
     
@@ -83,7 +83,7 @@ async def op(bot, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💌 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 💌", url=f"https://github.com/ALNWALKERTG/Acceptrepo")],[
+                    InlineKeyboardButton("💌 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 💌", url=f"https://t.me/+sT56Fh1VXZ81ZWRl")],[
                     InlineKeyboardButton("👍 Tʀʏ Aɢᴀɪɴ 👍", "Back")
                 ]
             ]

@@ -24,8 +24,7 @@ async def approve(bot, m : Message):
             f"**--#NᴇᴡGʀᴏᴜᴘ--**\n\nCʜᴀɴɴᴇʟ & Gʀᴏᴜᴘ Iᴅ: {m.chat.id}\nTɪᴛʟᴇ: `{m.chat.title}`\nUɴ: @{m.chat.username}\n\nBʏ: {m.from_user.mention}"
         )
         await bot.approve_chat_join_request(op.id, kk.id)
-        img = random.choice(dp1.SURPRICE)
-        await bot.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Pᴏᴡᴇʀᴅ Bʏ : @CinemaKalavaraTG__**".format(m.from_user.mention, m.chat.title), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startchannel=Bots4Sale&admin=invite_users+manage_chat")],[
+        await bot.send_message(m.from_user.t, "**𝖧𝖾𝗅𝗅𝗈 {} 👻\nWelcome To {} 𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽.\n\nSend /start to know more**".format(m.from_user.mention, m.chat.title)), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startchannel=Bots4Sale&admin=invite_users+manage_chat")],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startgroup=Bots4Sale&admin=invite_users+manage_chat")
                 
             ]])            )
